@@ -1,0 +1,12 @@
+@use 'components/header';
+@use 'components/reset';
+@use 'components/main';
+@use 'components/achievments';
+@use 'components/gallery';
+@use 'components/downloads';
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}

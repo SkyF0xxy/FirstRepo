@@ -1,0 +1,25 @@
+{
+  "name": "firstrepo",
+  "version": "1.0.0",
+  "description": "Это мой первый репозиторий на пути фронтенд разработки",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error:  no test specified\" && exit 1",
+    "start": "npx live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyF0xxy/FirstRepo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/SkyF0xxy/FirstRepo/issues"
+  },
+  "homepage": "https://github.com/SkyF0xxy/FirstRepo#readme",
+  "devDependencies": {
+    "sass": "^1.97.1"
+  }
+}

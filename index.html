@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header class="header wrapper">
+        <div class="header__logo-box ">
+          <img src="images/logo.png" alt="Logo" class="header__logo">
+        </div>
+        <ul class="header__list">
+          <li class="header__list-item">Mobile App</li>
+          <li class="header__list-item">FAQs</li>
+          <li class="header__list-item">Contact</li>
+          <li class="header__list-item">Sign Up</li>
+        </ul>
+    </header>
+    
+    <main class="main wrapper">
+        <div class="main__data">
+            <h1 class="main__title">Skip the Climbing, Catch the Bus</h1>
+            <p class="main__text">We sell tickets to the best seats in the house – houses on wheels
+             that is!  Get ready for jaw-dropping views without breaking a sweat.</p>
+            <!-- data input box -->
+            <!-- TODO: add data input in JS -->
+             <div class="main__radio-btns">
+                <div class="main__radio-box">
+                    <input type="radio" name="way" id="trip" value="1">
+                    <label for="trip">Round Trip</label>
+                </div>
+                <div class="main__radio-box">
+                    <input type="radio" name="way" id="one-way" value="0">
+                    <label for="one-way">One Way</label>
+                </div>
+
+
+                <div class="main__counter-box">
+                    <img src="images/person solid.png" alt="person" class="main__person-icon"/>
+                    <button class="main__counter-btn">
+                        <img src="images/Minus.png" alt="minus" class="main__btn-icon"/>
+                    </button>
+                    <span class="main__counter">1</span>
+                    <button class="main__counter-btn">
+                        <img src="images/Plus.png" alt="plus" class="main__btn-icon"/>
+                    </button>
+                </div>
+             </div>
+              <div class="main__block">
+                    <div class="main__item">
+                        <p class="main__item-header">Departure</p>
+                        <input class="main__item-input" placeholder="Your City/Station"/>
+                    </div>
+                    <div class="main__item">
+                        <p class="main__item-header">Arrival</p>
+                        <input class="main__item-input" placeholder="Where to?"/>
+                    </div>
+                    <div class="main__item">
+                        <p class="main__item-header">Pick your lucky day</p>
+                            <div class="main__item-input">
+                                <img src="./images/Vector1.png" alt="calendar" width="16">
+                                <input class="main__item-input-date" placeholder="Depart"/>
+                            </div>
+                    </div>
+                    <div class="main__item">
+                        <p class="main__item-header"></p>
+                            <div class="main__item-input">
+                                <img src="./images/Vector1.png" alt="calendar" width="16">
+                                <input class="main__item-input-date" placeholder="Return"/>
+                            </div>
+                    </div>
+
+                    <button class="main__btn">Find My Alpine Ride</button>
+              </div>
+        </div>
+        <img src="images/Hero.png" alt="hero" class="main__image"/>
+    </main>
+
+    <div class="achievments wrapper">
+        <div class="achievments__item">
+            <h2 class="achievments__item-number">68K+</h2>
+            <p class="achievments__item-text">Track kilometers</p>
+        </div>
+        <div class="achievments__item">
+            <h2 class="achievments__item-number">1.4M+</h2>
+            <p class="achievments__item-text">Photos Taken</p>
+        </div>
+        <div class="achievments__item">
+            <h2 class="achievments__item-number">23M+</h2>
+            <p class="achievments__item-text">Altitude Gainer</p>
+        </div>
+        <div class="achievments__item">
+            <h2 class="achievments__item-number">165+</h2>
+            <p class="achievments__item-text">Years of history</p>
+        </div>
+    </div>
+
+    <div class="gallery wrapper">
+        <p class="gallery__header">Glimpses of Glory</p>
+        <div class="gallery__main">
+            <div class="gallery__left">
+                <img src="./images/img1.png" alt="image">
+                <img src="./images/img2.png" alt="image">
+            </div>
+            <div class="gallery__right">
+              <div class="gallery__right-top">
+                    <img src="./images/img3.png" alt="image" class="gallery__image-top-left">
+                    <img src="./images/img4.png" alt="image" class="gallery__image-top-right">
+              </div>  
+             <img src="./images/img5.png" alt="image">
+            </div>
+        </div>
+    </div> 
+    
+    <div class="download wrapper">
+        <p class="download__header">Free downloads app now!</p>
+        <div class="download__images">
+                <img src="./images/Google.png" alt="Google Play">
+                <img src="./images/AppGallery.png" alt="App Gallery">
+                <img src="./images/App Store.png" alt="App Store">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,31 @@
+.faq{
+    padding: 128px 177px 249px;
+    font-family: "Poppins", sans-serif;
+
+    &__title{
+        font-size: 64px;
+        font-weight: bold;
+        margin-bottom: 40px;
+    }
+
+    &__item{
+        
+
+        &:not(:last-of-type){
+            border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+        }   
+    }
+
+    &__question-box{
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 16px;
+    }
+
+    &__answer{
+        padding: 16px 0
+    }
+
+}

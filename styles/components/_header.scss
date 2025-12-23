@@ -1,8 +1,10 @@
 .header{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 32px 64px;
     background: #FFFFFF;
+    position: relative;
 
     &__list{
         display: flex;
@@ -21,5 +23,35 @@
 
     &__logo{
         height: 50px;
+    }
+
+    &__menub{
+        width: 30px;
+        height: 24px;
+        display: none;
+    }
+
+    &__menu{
+        width: 468px;
+        background-color: #0578FF;
+        position: absolute;
+        right: 0;
+        top: 32px;
+        color: white;
+        height: 0;
+        overflow: hidden;
+
+    }
+
+}
+
+@media (max-width: 768px){
+    .header{
+        &__menub{
+            display: block;
+        }
+        &__list{
+            display: none;
+        }
     }
 }

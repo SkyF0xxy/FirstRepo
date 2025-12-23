@@ -4,9 +4,17 @@
 @use 'components/achievments';
 @use 'components/gallery';
 @use 'components/downloads';
+@use 'components/footer';
+@use 'components/faq';
 
 .wrapper{
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+}
+
+.hiden-height{
+    height: 0;
+    overflow: hidden;
+    padding: 0
 }

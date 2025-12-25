@@ -45,8 +45,9 @@
 
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
     .header{
+        padding: 32px;
         &__menub{
             display: block;
         }
@@ -55,3 +56,10 @@
         }
     }
 }
+
+@media (max-width: 430px) {
+    .header{
+        padding: 32px 20px;
+    
+        }
+    }

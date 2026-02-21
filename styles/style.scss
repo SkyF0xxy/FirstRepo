@@ -1,0 +1,21 @@
+@use 'components/header';
+@use 'components/reset';
+@use 'components/main';
+@use 'components/achievments';
+@use 'components/gallery';
+@use 'components/downloads';
+@use 'components/footer';
+@use 'components/faq';
+@use 'components/calendar';
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.hiden-height{
+    height: 0;
+    overflow: hidden;
+    padding: 0
+}

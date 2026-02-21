@@ -169,7 +169,6 @@
   }
   .main__title {
     font-size: 32px;
-    font-weight: bold;
   }
   .main__item {
     width: 100%;
@@ -531,6 +530,52 @@
     padding: 64px 20px 161px;
   }
 }
+button {
+  width: 49%;
+  box-sizing: border-box;
+}
+
+.daysTitle {
+  display: flex;
+  width: 100%;
+}
+
+.month-title {
+  text-align: center;
+  font-weight: bold;
+  padding: 5px;
+}
+
+.days {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.day-title {
+  width: 14.2857142857%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.month-box {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.month {
+  width: 49%;
+}
+
+.calendar {
+  width: 700px;
+  border: 1px solid black;
+  display: none;
+}
+
 .wrapper {
   max-width: 1440px;
   width: 100%;

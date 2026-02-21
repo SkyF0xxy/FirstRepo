@@ -19,23 +19,18 @@
         gap: 125px;
         
         img{
-        width: 15%;
-            
+            width: 15%;
         }
 
-            &-box{
-       ;
-        width: 15%;
+        &-box{
+            width: 15%;
 
             img{
                 width: 100%;
             }
         }
     }
-    } 
-    
-
-      
+}
 
 @media (max-width: 768px) {
     .download{
@@ -51,28 +46,26 @@
             gap: 30px 43px;
             flex-wrap: wrap;
             
-        &-box{
-            width: 30%;
-            display: flex;
-            justify-content: center;
+            &-box{
+                width: 30%;
+                display: flex;
+                justify-content: center;
 
-            &:first-of-type{
-                width: 100%;
+                &:first-of-type{
+                    width: 100%;
 
-                img{
-                    width: 30%;
+                    img{
+                        width: 30%;
+                    }
                 }
             }
-        }
-        
-        img{
-            width: 100%;
-        }
             
-    }   
+            img{
+                width: 100%;
+            }
+        }
     }
-
-    }
+}
 
 @media (max-width: 430px) {
     .download{
@@ -88,21 +81,21 @@
             gap: 30px 43px;
             flex-wrap: wrap;
             
-        &-box{
-            width: 100%;
-
-            &:first-of-type{
+            &-box{
                 width: 100%;
 
-                img{
-                    width: 55%;
+                &:first-of-type{
+                    width: 100%;
+
+                    img{
+                        width: 55%;
+                    }
                 }
             }
+            
+            img{
+                width: 55%;
+            }
         }
-        
-        img{
-            width: 55%;
-        }
-    }   
-    }   
-    }   
+    }
+}

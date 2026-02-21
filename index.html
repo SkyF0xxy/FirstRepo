@@ -71,16 +71,28 @@
                         <p class="main__item-header">Pick your lucky day</p>
                             <div class="main__item-input">
                                 <img src="./images/Vector1.png" alt="calendar" width="16">
-                                <span>Depart</span>
+                                <span id="depart">Depart</span>
                             </div>
                     </div>
                     <div class="main__item">
                         <p class="main__item-header"></p>
                             <div class="main__item-input">
                                 <img src="./images/Vector1.png" width="16">
-                                <span>Return</span>
+                                <span id="return">Return</span>
                             </div>
                     </div>
+
+                  <div class="calendar" id="calendar">
+                    <div>
+                        <button type="button" id="prev">prev</button>
+                        <button type="button" id="next">next</button>
+                    </div>
+                    <div class="month-box" id="month-box"></div>
+                     <div>
+                        <button type="button" id="reset">reset</button>
+                        <button type="button" id="apply">apply</button>
+                     </div>
+                  </div>
 
                     <button class="main__btn">Find My Alpine Ride</button>
               </div>
@@ -231,5 +243,6 @@
             <p>All Rights Reserved (Especially the Window Seats).</p>
          </div>
     </footer>
+    <script src="./scripts/calendar.js"></script>
 </body>
 </html>
